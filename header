@@ -12,7 +12,7 @@ header{
     height: 70px;
     width: 100%;
     width: 1400px;
-    max-width: 1400px;
+    max-width: 1550px;
     /*background: red;*/
     margin: 0 auto;
     display: flex;
