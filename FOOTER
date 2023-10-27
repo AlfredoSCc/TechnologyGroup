@@ -1,0 +1,101 @@
+ <footer>
+
+        <style>
+            .suscribete {
+                max-width: 1400px;
+                ;
+                height: 120px;
+                margin: 0 auto;
+                background-color: rgb(0, 0, 0);
+                display: flex;
+                align-items: center;
+
+            }
+
+            .suscri {
+                /*background-color: blue;*/
+                height: 100px;
+                width: 60%;
+                display: flex;
+                align-items: center;
+
+                gap: px;
+            }
+
+            .suscri input {
+
+                height: 58px;
+                width: 560px;
+                border: transparent;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                margin-left: 25px;
+                text-align: center;
+                font-size: 20px;
+
+            }
+
+            .suscri button {
+
+                height: 60px;
+                width: 250px;
+                border: transparent;
+                border-radius: 20px;
+                background-color: aqua;
+                position: absolute;
+                margin-left: 570px;
+
+            }
+
+            .suscri button p {
+
+                text-align: center;
+                font-weight: bold;
+                font-size: 20px;
+
+            }
+
+            .redes-sus {
+                /*background-color: rgb(8, 255, 8);*/
+                height: 100px;
+                width: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+                .redes-sus p{
+                    font-size: 25px;
+                    font-weight: bold;
+                    color: white;
+                }
+
+            
+        </style>
+
+        <section class="suscribete">
+
+            <div class="suscri">
+
+                <input type="text" placeholder="Ingresa la direccion de correo">
+                <button>
+                    <p>Suscribete</p>
+                </button>
+
+            </div>
+
+            <div class="redes-sus">
+
+                <p>Siguenos:</p>
+                <img src="Recursos-Imagenes/Imagenes-Login/Iconos/Icon-Facebook.png" alt="">
+                <img src="Recursos-Imagenes/Imagenes-Login/Iconos/Icon-Instagram.png" alt="">
+                <img src="Recursos-Imagenes/Imagenes-Login/Iconos/Icon-Youtube.png" alt="">
+
+            </div>
+
+        </section>
+
+
+
+    </footer>
+
+
