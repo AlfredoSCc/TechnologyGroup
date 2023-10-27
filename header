@@ -1,0 +1,117 @@
+header{
+    height: 80px;
+    width: 100%;
+    margin: 0 auto 0;
+    background: black;
+    display: flex;
+    align-items: center;
+}
+
+.header-menu{
+
+    height: 70px;
+    width: 100%;
+    width: 1400px;
+    max-width: 1400px;
+    /*background: red;*/
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    overflow: hidden;
+    /*background-color: #ff0808;*/
+    height: 65px;
+    width: 220px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .logo img{
+        height: 65px;
+    }
+/*.logo{
+    
+    height: 65px;
+    width: 220px;
+    background: green;
+    margin-left: 5px;
+    background-image: url(Recursos-Imagenes/Logo/Logo-Web.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+
+}*/
+
+
+.Menu-Cat{
+    height: 65px;
+    width: 550px;
+    /*background: green;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.categoria{
+    display: flex;
+    align-items: center;
+}
+
+.categoria p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+
+.barra-busqueda{
+
+    height: 25px;
+    width: 400px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.Menu-Cat2{
+
+    height: 65px;
+    width: 350px;
+    margin-right: 15px;
+    /*background: green;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nosotros{
+    text-align: center;
+    font-weight: bold;
+    
+}
+    .nosotros a{
+        text-decoration: none;
+        color: white;
+    }
+.sesion{
+
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+    .sesion a{
+        text-decoration: none;
+        color: white;
+
+    }
+
+.carrito-compras{
+
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
